@@ -1,0 +1,286 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body {
+    background-color:black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;  
+}
+
+.body-contacto {
+    background-image:url(images/Artistas/rancho_vivo.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-bottom: 0%;
+    padding: 0%;
+    line-height: 100%;  
+}
+.header {
+    margin: 0;
+    padding: 0;
+    background-color: black; opacity: 75%;
+    font-family: 'Montserrat', sans-serif; color:white; font-weight: 600; font-size: 15px;
+    padding-bottom: 0px;
+    position:sticky;
+    top:0;
+    z-index: 1;
+    height: 90px;
+    margin-bottom: 0;
+}
+.header nav ul {
+    list-style-type: none;
+    position: relative;
+}
+
+.header nav ul li {
+    float: right;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+a:link{
+    color: white;
+    text-shadow:3px 3px 3px black;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#encabezadoSeccion {  
+    background-image: url(images/Artistas/rancho_vivo.jpg);
+    background-position: center; 
+    background-color: black;
+    height: 300px;
+    width: 100vw;
+    margin: 0;
+    padding:0;
+    padding-top: 10%;
+    background-size:cover; position:sticky;
+    font-family: 'Montserrat', sans-serif; font-weight: bolder; 
+    color: white; text-shadow: 3px 3px 3px black;
+    text-align: center; padding: top 50px; padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#encabezadoSeccion h5{
+    margin:0;
+    padding:0;
+    font-size: 250%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#abril-olivera {
+width: 100%; background-repeat: no-repeat;
+height: 500px;
+margin: 0;
+padding: 0;
+text-align: center; padding-bottom: 30px; padding-top: 10px;
+color: white; text-shadow: 3px 3px 3px black;
+background-image: url(images/background-abril.png);
+background-position: center;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#an-espil {
+    width: 100%; background-repeat: no-repeat;
+    height: 500px;
+    text-align: center; padding-bottom: 30px; padding-top: 10px;
+    color: white; text-shadow: 3px 3px 3px black;
+    background-image: url(images/background-an.png);
+    background-position: center;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+#mora-navarro{
+    width: 100%; background-repeat: no-repeat;
+    height: 500px;
+    text-align: center; padding-bottom: 30px; padding-top: 10px;
+    color: white; text-shadow: 3px 3px 3px black;
+    background-image: url(images/background-mora.png);
+    background-position: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    } 
+
+    #militantes-del-climax{
+        width: 100%; background-repeat: no-repeat;
+        height: 500px;
+        text-align: center; padding-bottom: 30px; padding-top: 10px;
+        color: white; text-shadow: 3px 3px 3px black;
+        background-image: url(images/background-climax.png);
+        background-position: center;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    #nafta{
+        width: 100%; background-repeat: no-repeat;
+        height: 500px;
+        text-align: center; padding-bottom: 30px; padding-top: 10px;
+        color: white; text-shadow: 3px 3px 3px black;
+        background-image: url(images/background-nafta.png);
+        background-position: center;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+    #save-la-data{
+        width: 100%; background-repeat: no-repeat;
+        height: 500px;
+        text-align: center; padding-bottom: 30px; padding-top: 10px;
+        color: white; text-shadow: 3px 3px 3px black;
+        background-image: url(images/background-saveladata.png);
+        background-position: center;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ }
+
+ h1{
+    font-size: 600%; color: white; 
+    text-shadow: 3px 5px 5px black; padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+ }
+h3{
+    font-size: 400%; color: white; text-shadow:3px 3px 3px black; 
+    position: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+h5{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+}
+
+p{
+    color: white;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    font-size: small;
+}
+.descripcion{
+    width: 90vw;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.descripcion p{
+    color: white;
+    width: 100%;
+    font-size: small;
+}
+
+.YouTube{
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+
+
+}
+
+.redes.sociales{
+    display: flex;
+    align-items: center;
+}
+.destacado{
+    background-color: black;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: black; opacity: 75%;
+    font-family: 'Montserrat', sans-serif; color:white; font-weight: 600; font-size: 15px;
+    padding-bottom: 25px;
+    text-align: right;
+    height: 120px;   
+}
+
+.galeria{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;    
+}
+.galitem{
+width: 100%;
+max-width: 500px;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#form-contacto {
+    width: 50%;
+    max-width: 600px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: black 1px 2px 2px;
+    }   
+#form-contacto input {
+        width: 90%;
+        height: 30px;
+        margin: 0.5rem;
+      }
+.form-container{
+    display: flex;   
+    justify-content: center;
+       
+}
+        #form #button {
+        padding: 0.5em 1em;
+        border: none;
+        background: rgb(218, 218, 218);
+        cursor: pointer;
+        font-style: bold;
+        width: 50%;
+        min-width: 200px;
+}
