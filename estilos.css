@@ -6,6 +6,7 @@ html{
 
 body {
     background-color:black;
+    background-image: linear-gradient(to bottom right , black 25% , rgb(78, 44, 201))   ;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -46,6 +47,11 @@ body {
     flex-wrap: wrap;
     padding-right: 30px;
     padding-top: 40px;
+    transform: transslate .6s;
+}
+
+.header nav ul li:hover{
+    transform: translate(0px, -5px)
 }
 
 a:link{
@@ -170,16 +176,26 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
-
  }
+
+h2{
+    color: white;
+    font-size: 200%;
+    text-align: center;
+} 
+
 h3{
     font-size: 400%; color: white; text-shadow:3px 3px 3px black; 
     position: center;
     align-items: center;
     justify-content: center;
     text-align: center;
-   
+    transition: transform .8s;
 }
+h3:hover{
+    transform: scale(1.2);
+}
+
 h5{
     text-align: center;
     align-items: center;
@@ -251,7 +267,12 @@ width: 100%;
 max-width: 500px;
 padding-left: 1rem;
 padding-right: 1rem;
+transition: transform 1s;
 }
+.galitem:hover{
+    transform: scale(1.1);
+}
+
 
 #form-contacto {
     width: 50%;
@@ -283,4 +304,8 @@ padding-right: 1rem;
         font-style: bold;
         width: 50%;
         min-width: 200px;
+}
+
+#NOMBRE:hover{
+   scale: 120%;
 }
